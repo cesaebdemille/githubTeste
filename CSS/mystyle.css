@@ -1,0 +1,40 @@
+
+body{
+    font-family: roboto mono;
+    padding: 2%;
+    color:#c7d14f;
+    background-color: #6d7e77;
+}
+
+a {
+    color: #b73f74 ;
+}
+
+h1 {
+    margin-bottom: -20px;
+    color: #00b49b;
+}
+
+h3 {
+    color: #00b49b;
+    margin-bottom: -20px;
+}
+
+h4 {
+    color: #00b49b;
+    margin-bottom: -10px;
+}
+
+p {
+    margin-bottom: -8px;
+}
+
+#noCode{
+    text-decoration: line-through;
+    text-decoration-color: #b73f74;
+}
+
+.section{
+    display: grid;
+
+}
