@@ -18,7 +18,14 @@ public class Ex01 {
 
         //comparar
 
-        if(num01 >= num02) {
+        if(num01 == num02) {
+            System.out.println("Os números são iguais");
+        }else {
+            if(num01 > num02) {
+                System.out.println(num01 + " é o maior");
+            } else {
+                System.out.println(num02 + " é o maior");
+            }
 
         }
 
