@@ -1,0 +1,32 @@
+.cards {
+    width: 340px;
+    border: 3px solid blue ;
+    border-radius: 3%;
+    padding: 2%;
+  justify-content: center;
+}
+
+.image{
+    border-radius: 3%;
+}
+
+/* textos do card BLOCK>h1>p*/
+
+span {
+width: 300px;
+text-align: center;
+}
+
+h1 {
+font-family: helvetica;
+font-weight: 800;
+}
+
+p {
+
+font-family: 'helvetica';
+font-weight: 500;
+}
+
+
+
