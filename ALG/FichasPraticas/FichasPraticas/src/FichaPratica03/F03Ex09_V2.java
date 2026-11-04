@@ -12,8 +12,17 @@ public class F03Ex09_V2 {
         //Faça um programa que vai pedindo números ao utilizador até que este introduza o número -1. O computador
         //deve dizer a média dos números introduzidos (excluindo o -1).
 
-
-
+        //poss. 1 : sentinela
+        while (num != -1) {
+            System.out.print("insira número (int/pos/neg)");
+            num = input.nextInt();
+            if (num != -1) {
+                soma += num;
+                cont += 1;
+                System.out.println("in-soma" + soma);
+                System.out.println("in-cont " + cont);
+            } else  System.out.println("a média é:" +  soma/cont);
+        }
 
 
     }
