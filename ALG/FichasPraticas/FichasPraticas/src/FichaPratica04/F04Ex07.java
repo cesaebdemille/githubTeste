@@ -10,7 +10,7 @@ public class F04Ex07 {
 // se um número pedido ao utilizador é primo. (Chamamos de número primo um
 //número natural que só possui dois divisores: 1 e ele mesmo)
 
-        int num01, div, count;
+        int num01, div, count=0;
 
 
         System.out.println("insira um numero: ");
@@ -19,12 +19,15 @@ public class F04Ex07 {
 
         for(div=1; div<=num01; div++){
             if(num01%div == 0){
-                count= div;
-                System.out.println(count);
+              count++;
             }
-
         }
 
+        if (count==2){
+            System.out.println("prime"); 
+        } else System.out.println("not prime"); 
+        
+         
 
 
 
